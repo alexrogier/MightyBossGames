@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages TEST
+## Welcome to GitHub Pages TEST1
 
 You can use the [editor on GitHub](https://github.com/alexrogier/MightyBossGames/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
