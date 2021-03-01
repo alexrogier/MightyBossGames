@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\components",
-    "\\components\\carousel",
-    "\\components\\owl.carousel",
-    "\\css"
+    "\\css\\vendor\\Dewi"
   ],
-  "SelectedNode": "\\assets\\js",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
