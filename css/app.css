@@ -13,3 +13,21 @@ h2 {
 section {
     padding: 20px 0;
 }
+
+.bulletin-details {
+    list-style: none;
+}
+
+.bulletin-check:before {
+    content: url('../assets/img/check2.svg');
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.bulletin-x:before {
+    content: url('../assets/img/x.svg');
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
