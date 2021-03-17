@@ -14,8 +14,13 @@ section {
     padding: 20px 0;
 }
 
+.details-image {
+    width: 50%;
+}
+
 .bulletin-details {
     list-style: none;
+    max-width: 50%;
 }
 
 .bulletin-check:before {
@@ -31,3 +36,29 @@ section {
     height: 16px;
     margin-right: 10px;
 }
+
+.logo {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+    .hero-container {
+        padding-top: 95px;
+    }
+
+    #social {
+        display: none !important;
+    }
+
+    .details-image {
+        width: 100%;
+    }
+
+    .bulletin-details {
+        max-width: 100%;
+        order: 2;
+    }
+}
+
