@@ -42,6 +42,10 @@ section {
     max-width: 500px;
 }
 
+.set-icon {
+    width: 80px;
+    height: 80px;
+}
 /* MOBILE */
 @media screen and (max-width: 600px) {
     .hero-container {
