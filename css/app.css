@@ -18,6 +18,10 @@ section {
     width: 50%;
 }
 
+.details-item-flex {
+    flex: 0 0 50%; 
+}
+
 .bulletin-details {
     list-style: none;
     max-width: 50%;
