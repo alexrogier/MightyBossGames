@@ -76,6 +76,16 @@ section {
     height: 100px;
 }
 
+.border-arcane { border-color: blue; }
+.border-cataclysmic { border-color: red; }
+.border-divine { border-color: grey; }
+.border-nature { border-color: green; }
+.border-martial { border-color: brown; }
+.border-mundane { border-color: sangria-red; }
+.border-potions { border-color: orange; }
+.border-skullduggery { border-color: black; }
+.border-kickstarter { border-color: green; }
+
 /* MOBILE */
 @media screen and (max-width: 600px) {
     #social {
