@@ -58,6 +58,10 @@ section {
     max-width: 500px;
 }
 
+.icon-container {
+    max-width: 160px;   
+}
+
 .set-icon {
     width: 80px;
     height: 80px;
