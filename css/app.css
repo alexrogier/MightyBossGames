@@ -59,13 +59,18 @@ section {
 }
 
 .icon-container {
-    max-width: 160px;   
+    border: 2px solid;
+    border-radius: 10px;
+    min-width: 160px;
+    flex: 0 0 17%;
+    margin: 10px 10px;
 }
 
 .set-icon {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
+
 /* MOBILE */
 @media screen and (max-width: 600px) {
     #social {
