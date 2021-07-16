@@ -76,15 +76,15 @@ section {
     height: 100px;
 }
 
-.border-arcane { border-color: blue; }
-.border-cataclysmic { border-color: red; }
-.border-divine { border-color: grey; }
-.border-nature { border-color: green; }
-.border-martial { border-color: brown; }
-.border-mundane { border-color: sangria-red; }
-.border-potions { border-color: orange; }
-.border-skullduggery { border-color: black; }
-.border-kickstarter { border-color: green; }
+.border-arcane { border-color: blue; color: blue; }
+.border-cataclysmic { border-color: red; color: red; }
+.border-divine { border-color: grey; color: grey; }
+.border-nature { border-color: green; color: green; }
+.border-martial { border-color: brown; color: brown; }
+.border-mundane { border-color: sangria-red; color: sangria-red; }
+.border-potions { border-color: orange; color: orange; }
+.border-skullduggery { border-color: black; color: black; }
+.border-kickstarter { border-color: green; color: green; }
 
 /* MOBILE */
 @media screen and (max-width: 600px) {
