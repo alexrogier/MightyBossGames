@@ -163,7 +163,6 @@
     autoplay: true,
     dots: true,
     loop: true,
-    items: 1,
     nav: true,
     responsive:{
         0:{
