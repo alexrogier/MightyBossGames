@@ -169,7 +169,7 @@
             items:1
         },
         600:{
-            items:1
+            items:2
         },
         1000:{
             items:2
@@ -197,14 +197,6 @@
     $(document).ready(function() {
       $('.venobox').venobox();
     });
-  });
-
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
   });
 
   // Init AOS
