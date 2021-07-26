@@ -6,6 +6,11 @@ h2 {
     margin: 1em 0;
 } 
 
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
 #main {
     padding: 60px 0;
 }
@@ -32,6 +37,10 @@ section {
 
 .details-image {
     width: 50%;
+}
+
+.details-image img {
+    max-width: 100%;
 }
 
 .details-item-flex {
@@ -65,7 +74,7 @@ section {
 .icon-container {
     border: 2px solid;
     border-radius: 10px;
-    min-width: 160px;
+    min-width: 145px;
     flex: 0 0 15%;
     margin: 10px 10px;
 }
