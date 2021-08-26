@@ -40,6 +40,7 @@
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -155,51 +156,38 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <section id="cardpreview" class="cardpreview mb-4">
-                        <div class="container" data-aos="zoom-in">
-
-                            <div class="owl-carousel cardpreview-carousel">
-
-                                <div class="testimonial-item">
-                                    <svg width="280" height="360"><rect width="280" height="360" style="fill:rgb(0,0,0);stroke-width:3;stroke:rgb(0,0,0)" /></svg>
-                                </div>
-
-                                <div class="testimonial-item">
-                                    <svg width="280" height="360"><rect width="280" height="360" style="fill:rgb(0,0,0);stroke-width:3;stroke:rgb(0,0,0)" /></svg>
-                                </div>
-
-                                <div class="testimonial-item">
-                                    <svg width="280" height="360"><rect width="280" height="360" style="fill:rgb(0,0,0);stroke-width:3;stroke:rgb(0,0,0)" /></svg>
-                                </div>
-
-                                <div class="testimonial-item">
-                                    <svg width="280" height="360"><rect width="280" height="360" style="fill:rgb(0,0,0);stroke-width:3;stroke:rgb(0,0,0)" /></svg>
-                                </div>
-
-                                <div class="testimonial-item">
-                                    <svg width="280" height="360"><rect width="280" height="360" style="fill:rgb(0,0,0);stroke-width:3;stroke:rgb(0,0,0)" /></svg>
-                                </div>
-
-                                <div class="testimonial-item">
-                                    <svg width="280" height="360"><rect width="280" height="360" style="fill:rgb(0,0,0);stroke-width:3;stroke:rgb(0,0,0)" /></svg>
-                                </div>
-
-                                <div class="testimonial-item">
-                                    <svg width="280" height="360"><rect width="280" height="360" style="fill:rgb(0,0,0);stroke-width:3;stroke:rgb(0,0,0)" /></svg>
-                                </div>
-
-                                <div class="testimonial-item">
-                                    <svg width="280" height="360"><rect width="280" height="360" style="fill:rgb(0,0,0);stroke-width:3;stroke:rgb(0,0,0)" /></svg>
-                                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="assets/img/catalyst.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/catalyst_backing.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/centasteed.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/centasteed_backing.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/goblin_cleavuh.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/goblin_cleavuh_backing.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/herculean_bracers.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/herculean_bracers_backing.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/miracle_runes.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/miracle_runes_backing.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/mourning_star.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/mourning_star_backing.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/ocularmortum.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/ocularmortum_backing.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/query_parchment.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/query_parchment_backing.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/siegebreaker.png" class="card-preview" /></div>
+                            <div class="swiper-slide"><img src="assets/img/siegebreaker_backing.png" class="card-preview" /></div>
                             </div>
-
+                            <div class="swiper-pagination"></div>                            
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
                         </div>
-                    </section>
-                    <div class="container">
-                        <h3><strong>Want these cards?</strong></h3>
-                        <p>They’re yours! We want to give you a free sample of cards that we plan to produce. Please enjoy 9 <strong>FREE</strong> print and play cards! If you like what you see, consider helping us turn our vision into reality by backing our kickstarter to produce even more cards.</p>
-                        <button id="btn-download-cards" class="btn-primary">Download FREE cards</button>
+                        <div class="container">
+                            <h3><strong>Want these cards?</strong></h3>
+                            <p>They’re yours! We want to give you a free sample of cards that we plan to produce. Please enjoy 9 <strong>FREE</strong> print and play cards! If you like what you see, consider helping us turn our vision into reality by backing our kickstarter to produce even more cards.</p>
+                            <a href="assets/printable_cards.zip"><button id="btn-download-cards" class="btn-primary">Download FREE cards</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -258,7 +246,7 @@
                     <h2 class="text-uppercase text-center font-weight-bold col-12">Meet the Team</h2>
                     <div class="d-flex justify-content-center flex-wrap container text-center">
                         <div class="col-12 d-flex flex-wrap mb-4" style="max-width: 230px">
-                            <svg width="200" height="200"><rect width="200" height="200" style="fill:rgb(0,0,0);stroke-width:3;stroke:rgb(0,0,0)" /></svg>
+                            <img src="assets/img/team_alex.jpg" class="team-img" />
                             <p class="col-12 pt-2"><strong>Alex Rogier</strong></p>
                         </div>
                         <div class="col-12 d-flex flex-wrap mb-4" style="max-width: 230px">
@@ -293,8 +281,39 @@
     <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
     <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                    slidesPerGroup: 2,
+                }
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true
+            },
+        });
+    </script>
 </body>
  
 </html>

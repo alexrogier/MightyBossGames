@@ -116,3 +116,17 @@ section {
     }
 }
 
+.swiper {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 25px;
+  }
+
+.card-preview {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.team-img {
+    width: 200px;
+}
