@@ -101,13 +101,13 @@ section {
 .border-kickstarter { border-color: green; color: green; }
 
 /* MOBILE */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     #social {
         display: none !important;
     }
 
-    .details-image {
-        width: 100%;
+    .details-item-flex {
+        flex: 0 0 100%;
     }
 
     .bulletin-details {
