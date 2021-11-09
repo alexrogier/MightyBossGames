@@ -53,14 +53,14 @@ section {
 }
 
 .bulletin-check:before {
-    content: url('../assets/img/check2.svg');
+    content: url('../assets/img/chk_y.png');
     width: 16px;
     height: 16px;
     margin-right: 10px;
 }
 
 .bulletin-x:before {
-    content: url('../assets/img/x.svg');
+    content: url('../assets/img/chk_x.png');
     width: 16px;
     height: 16px;
     margin-right: 10px;
