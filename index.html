@@ -308,9 +308,6 @@
             },
             on: { 
                 touchEnd: function(event) {
-                    console.log("manually moving slider");
-                    console.log(event);
-                    console.log(event.swipeDirection);
                     if(event.swipeDirection == "next") dataLayer.push("swiperSlideSwipeNext");
                     if(event.swipeDirection == "prev") dataLayer.push("swiperSlideSwipePrev");
                 },
@@ -318,11 +315,9 @@
         });
         
         document.getElementsByClassName("swiper-button-next")[0].addEventListener('click', function() {
-            console.log("next");
             dataLayer.push("swiperSlideClickNext")
         });
         document.getElementsByClassName("swiper-button-prev")[0].addEventListener('click', function() {
-            console.log("prev");
             dataLayer.push("swiperSlideClickPrev")
         });
     </script>
